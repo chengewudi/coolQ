@@ -84,7 +84,7 @@ namespace Newbe.CQP.Plugins.FirstPlugin
                             CoolQApi.SendGroupMsg(861182880, content);
                         }
                     }
-                    Thread.Sleep(20 * 1000);
+                    Thread.Sleep(10 * 1000);
                 }
             }).Start();
 
